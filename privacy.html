@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Taas Club Privacy Policy</title>
+<style>
+:root{--felt:#0B2A20;--felt2:#123A2D;--gold:#F2C14E;--ivory:#F5F1E6;--sage:#A9C2B6}
+body{margin:0;background:var(--felt);color:var(--ivory);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+main{max-width:760px;margin:0 auto;padding:40px 16px 64px}
+h1{font-size:32px;margin:0 0 4px}h2{font-size:20px;margin:32px 0 8px;color:var(--gold)}
+p,li{color:var(--ivory)}.muted{color:var(--sage)}a{color:var(--gold)}
+ul{padding-left:20px}.card{background:var(--felt2);border-radius:16px;padding:16px 20px;margin:16px 0}
+</style>
+</head>
+<body>
+<main>
+<h1>Taas Club Privacy Policy</h1>
+<p class="muted">Last updated: 21 November 2026 · Applies to the Taas Club app for Android</p>
+
+<div class="card">
+<p><strong>In short:</strong> Taas Club has no accounts on our own servers. Your account is a private key that is created on your phone and never leaves it. To let you play with other people, the app uses public <a href="https://nostr.com">Nostr</a> relays, so some game information is public. We don't collect your phone number, email, contacts or location, and the app has no ads and no analytics.</p>
+</div>
+
+<h2>Who we are</h2>
+<p>Taas Club is a card-game app (Callbreak and Teen Patti). Contact: <a href="mailto:av.n@aol.com">av.n@aol.com</a>.</p>
+
+<h2>Your account</h2>
+<ul>
+<li>When you open the app the first time, it creates a Nostr key pair on your phone. The secret key is stored only on your phone. You can copy it to back up your account; anyone who has it can use your account, so keep it private.</li>
+<li>From the public key the app computes a 12-digit player ID and gives you a username, which you can change once every 30 days.</li>
+</ul>
+
+<h2>What is public</h2>
+<p>These are published to public Nostr relays so other players can see them:</p>
+<ul>
+<li>Your username, player ID, level, points, number of games and wins.</li>
+<li>Your name — only if you turn on "Show my name". If it's off, other players see your username, and at the table a random temporary name.</li>
+<li>Your profile picture link — only if you add one. Pictures are never uploaded; the app loads them from the https link you give.</li>
+<li>Whether you are online and which game you are playing.</li>
+<li>Game results (game, table, finishing place, points earned), so results can be checked later.</li>
+<li>Reports you send about other players (who you reported and the reason).</li>
+</ul>
+<p>If you choose "Who can find me: Only friends", your username is not indexed for search, and the app hides you from search for anyone who isn't your friend.</p>
+
+<h2>What is private</h2>
+<ul>
+<li><strong>Your cards.</strong> At an online table, each player's cards are encrypted so only that player can read them.</li>
+<li><strong>Private messages.</strong> Messages between players are encrypted (Nostr NIP-04). Relays store the encrypted text plus who sent it, who it's for and when.</li>
+<li><strong>Your progress and settings</strong> (coins, gems, unlocked designs, friends, blocked players, sound and language) are stored on your phone.</li>
+</ul>
+
+<h2>Camera</h2>
+<p>The camera is used only when you choose to scan a friend's QR code. Images are processed on your phone and are not saved or sent anywhere.</p>
+
+<h2>Other services</h2>
+<ul>
+<li><strong>Nostr relays</strong> (relay.damus.io, nos.lol, relay.primal.net, nostr.mom, offchain.pub) are run by independent operators and have their own policies. They see your public key and your phone's IP address when you connect.</li>
+<li><strong>Profile pictures</strong> are loaded from the websites in other players' links; those websites can see your IP address.</li>
+<li>The app reads the time from the relays' web servers so daily rewards can't be cheated by changing the phone's clock.</li>
+</ul>
+
+<h2>Coins and games</h2>
+<p>Coins and gems are play money only. They have no cash value and can't be exchanged for money or prizes. Teen Patti in this app is a simulated card game, not real-money gambling.</p>
+
+<h2>Children</h2>
+<p>Taas Club is not directed at children under 13, and we don't knowingly collect information from them.</p>
+
+<h2>Deleting your account</h2>
+<p>In the app open <em>Profile → Settings → Delete account</em>. After three confirmation steps your account is deleted automatically after 24 hours; until then you can cancel. Deletion removes your data from this phone and asks the relays to delete your public profile. Because relays are run by independent operators, some may keep copies of public data for a while. Full details: <a href="delete-account.html">how to delete your account</a>.</p>
+
+<h2>Security</h2>
+<p>Saved progress is protected with a key kept in Android's hardware-backed Keystore, every Nostr event is signed, and text from other players is filtered before it is shown.</p>
+
+<h2>Changes</h2>
+<p>If this policy changes we'll update the date at the top and, for important changes, tell you in the app.</p>
+
+<h2>Contact</h2>
+<p>Questions or requests: <a href="mailto:av.n@aol.com">av.n@aol.com</a></p>
+</main>
+</body>
+</html>
